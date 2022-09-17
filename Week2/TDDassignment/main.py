@@ -1,8 +1,5 @@
-from random import random
-
 
 def theFunction(arg):
-    random
     switch = {
         1:"1",
         2:"2",

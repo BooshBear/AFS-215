@@ -1,8 +1,5 @@
-from random import random
-
 
 def theFunction(arg):
-    random
     switch = {
         1:"1",
         2:"2",
@@ -18,6 +15,10 @@ def theFunction(arg):
     return switch.get(arg, "Nothing")
 
 
-thearg = int(input("choose a number: "))
-
-print(theFunction(thearg))
+print(theFunction(1))
+print(theFunction(2))
+print(theFunction(3))
+print(theFunction(5))
+print(theFunction(6))
+print(theFunction(10))
+print(theFunction(15))
