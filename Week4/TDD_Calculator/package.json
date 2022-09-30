@@ -1,0 +1,19 @@
+{
+  "name": "tdd_calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Calc.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha '**/*.spec.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
