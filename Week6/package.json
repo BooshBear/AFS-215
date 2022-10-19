@@ -1,0 +1,16 @@
+{
+  "name": "week6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "JSClass.js",
+  "scripts": {
+    "test": "mocha '**/*.spec.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0"
+  }
+}
