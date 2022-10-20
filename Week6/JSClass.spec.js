@@ -12,7 +12,7 @@ describe("JSClass Testing", ()=>{
         expect(instance.appendToAry("pie")).to.equal("pie");
         expect(instance.showAry()).to.eql(['pie']);
     })
-    it("Test 3, adding and showing item", ()=>{
+    it("Test 3, finding specific item", ()=>{
         // const instance = new Jsclass;
         instance.appendToAry("1")
         instance.appendToAry("2")
